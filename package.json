@@ -1,0 +1,16 @@
+{
+  "name": "nadec-abap",
+  "version": "1.0.0",
+  "description": "NADEC ABAP Development",
+  "scripts": {
+    "lint": "abaplint",
+    "lint:fix": "abaplint --fix",
+    "test": "abaplint"
+  },
+  "keywords": ["abap", "sap", "nadec"],
+  "author": "ECO-NADEC",
+  "license": "ISC",
+  "devDependencies": {
+    "@abaplint/cli": "^2.114.5"
+  }
+}
