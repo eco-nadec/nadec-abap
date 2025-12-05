@@ -6,7 +6,8 @@ REPORT z_test_program.
 * Data declarations
 DATA: lv_message TYPE string,
       lv_number  TYPE i,
-      lv_total   TYPE i.
+      lv_total   TYPE i,
+      lv_day     TYPE i VALUE 3.
 
 * Welcome message
 lv_message = 'Welcome to ABAP Programming!'.
@@ -33,7 +34,6 @@ ENDIF.
 SKIP.
 
 * Simple CASE statement
-DATA: lv_day TYPE i VALUE 3.
 CASE lv_day.
   WHEN 1.
     WRITE: / 'Monday'.

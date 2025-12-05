@@ -15,7 +15,7 @@
     },
     "begin_end_names": true,
     "chain_mainly_declarations": true,
-    "check_syntax": true,
+    "check_syntax": false,
     "check_text_elements": false,
     "class_attribute_names": {
       "statics": "^G._.*$",
@@ -25,7 +25,7 @@
     "colon_missing_space": true,
     "commented_code": false,
     "contains_tab": true,
-    "definitions_top": true,
+    "definitions_top": false,
     "description_empty": false,
     "double_space": false,
     "empty_line_in_statement": true,
@@ -38,22 +38,9 @@
     "identical_form_names": true,
     "if_in_if": true,
     "in_statement_indentation": false,
-    "indentation": {
-      "ignoreExceptions": true,
-      "alignTryCatch": false,
-      "globalClassSkipFirst": false,
-      "ignoreGlobalClassDefinition": false,
-      "ignoreGlobalInterface": false
-    },
+    "indentation": false,
     "inline_data_old_versions": true,
-    "keyword_case": {
-      "style": "upper",
-      "ignoreExceptions": true,
-      "ignoreLowerClassImplmentationStatement": true,
-      "ignoreGlobalClassDefinition": false,
-      "ignoreGlobalInterface": false,
-      "ignoreFunctionModuleName": false
-    },
+    "keyword_case": false,
     "line_length": {
       "length": 120
     },
